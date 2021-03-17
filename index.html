@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #flex {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+      }
+
+      .container {
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10%;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 50px;
+      }
+      img {
+        background-color: rgb(22, 169, 238);
+        width: 200px;
+        border-radius: inherit;
+      }
+      h1 {
+        flex-basis: 100%;
+      }
+      .overlay {
+        padding: 3px;
+      }
+      p {
+        margin-top: 50px;
+      }
+      @media screen and (max-width: 1024px) {
+        .container {
+          width: 30%;
+          margin: 15px auto;
+        }
+        img {
+          width: 100%;
+        }
+      }
+
+      @media screen and (max-width: 414px) {
+        .container {
+          width: 55%;
+          margin: 15px auto;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="flex">
+      <h1>Gallery Heading</h1>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <div class="container">
+        <img src="placeholder-image.png" alt="Thumb slika" title="Image title" />
+        <div class="overlay">Image title</div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et iaculis metus. Donec sed
+        nibh vitae urna pulvinar consequat. Curabitur ultrices tellus vel nibh consequat vehicula.
+        Fusce sed vulputate turpis. Etiam consectetur nisi eget elit placerat, tristique pretium mi
+        rutrum. Vestibulum blandit lobortis facilisis. Nam laoreet urna quis volutpat commodo. Sed
+        eget nunc hendrerit, sagittis sem vitae, malesuada metus. Vestibulum in venenatis lorem.
+        Maecenas elit dui, accumsan at venenatis eget, suscipit ut sapien. Aliquam commodo molestie
+        consectetur. Nullam turpis purus, vulputate at vulputate nec, mattis iaculis ipsum.
+      </p>
+    </div>
+  </body>
+</html>
